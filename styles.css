@@ -36,6 +36,7 @@ li {
 
 .section2{
   background-color: burlywood;
+  height: 100%;
 }
 
 .logo {
@@ -64,10 +65,27 @@ li {
 
 
 main{
+  padding: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 42px;
+  color: greenyellow;
+}
+
+.item_text, .result_text{
+  color: greenyellow;
+  text-decoration: overline;
+}
+
+.result_text{
+  font-size: 42px;
+  margin-top: 32px;
 }
 
 .inout_container{
@@ -85,6 +103,8 @@ main{
   font-size: 32px;
   text-align: center;
   border: none;
+  background-color: lightgray;
+  color: greenyellow;
 }
 
 button{
