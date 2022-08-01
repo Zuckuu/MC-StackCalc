@@ -4,5 +4,5 @@ function calculate() {
   const remaining = value % 64;
   const result = document.getElementById("result");
 
-  result.innerHTML = 'Stack: ' + stack + " and " + remaining + ' items';
+  result.innerHTML = "Stack: " + stack + " and " + remaining + " items";
 }
